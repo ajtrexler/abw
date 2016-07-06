@@ -42,7 +42,7 @@ Geographically these are fairly widely distributed, though you'll notice right a
 
 ### relative best and worst bellwethers
 
-![figure5](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_fig5.png?raw=true)
+![figure5](https://gitlab.com/atrexler/svm_pumas/raw/master/readme_fig5.png)
 
 **Tulare County, California ()** had the lowest number of samples amongst the highest scoring PUMAs, making it the relative best predictor PUMA.  On the other hand, **Mower, Steele, Freeborn, and Dodge Counties, Minnesota ()** had the largest number of samples in the worst predictor class, making it the worst relative predictor PUMA.
 
