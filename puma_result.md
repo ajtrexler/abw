@@ -60,7 +60,7 @@ So a 0 value means everyone in a PUMA has the same occupation-- no diversity.  H
 
 **Lesson three, stay in school, kids.**  Weirdly, the number of persons under 16 correlated reasonably well with average predictor scores, while, not-so-weirdly the fraction of people in the PUMA that finished high school or equivalent degree programs correlated more strongly.  Number of persons with college degrees didn't correlate as strongly as the high school level.  
 
-![figure 4](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure4.png)
+![](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure4.png)
 
 **Finally, apparently with age and money come PUMA predictor wisdom**.  Average age and income were also slightly correlated with average PUMA predictor.  I suspect the reason for this is that the average incomes and ages in the better predictor PUMAs cluster with the national averages of these values, calculated from the full Kaggle dataset and plotted in the big red dots.
 
