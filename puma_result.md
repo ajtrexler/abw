@@ -6,7 +6,7 @@ Initially I tried to preselect PUMAs based on factors I thought might affect how
 
 **So, lesson number one, data is king!**  PUMAs with more datapoints clearly produced better models that more accurately predicted occupations in other PUMAs.  No surprise there, really.  Moving on from that, I wanted to try to put the PUMAs on a more level playing field, so I extracted a random subset of datapoints (1000) from each PUMA with at least that many datapoints, and performed the model building and analysis again with this smaller dataset.  Here is the same style plot as Figure 1, showing the performance of each PUMA, using a normalized dataset of 1000 samples, at predicting occupations.
 
-!figure2(https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure2.png)
+![figure2](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure2.png)
 
 **Lesson two, data is still king!**  Somewhat more surprisingly here was that even when I normalized the number of samples used to create each model (1000 datapoints), the PUMAs with more samples still performed better, though the correlation is clearly lower.  This suggests that better sampling leads to better datasets, which of course makes plenty of sense.  
 
@@ -42,7 +42,7 @@ Geographically these are fairly widely distributed, though you'll notice right a
 
 ### relative best and worst bellwethers
 
-![figure5](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_fig5.png)
+![figure5](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_fig5.png?raw=true)
 
 **Tulare County, California ()** had the lowest number of samples amongst the highest scoring PUMAs, making it the relative best predictor PUMA.  On the other hand, **Mower, Steele, Freeborn, and Dodge Counties, Minnesota ()** had the largest number of samples in the worst predictor class, making it the worst relative predictor PUMA.
 

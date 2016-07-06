@@ -17,5 +17,5 @@ My secondary goals for this project, which were definitely more succesful, were 
 
 test_puma is called using Parallel from joblib to achieve some parallelization.  Parallel creates a number of workers that each carry out the test_puma call using a different input PUMA.
 
-[results](https:results.md)
+[results](https://gitlab.com/atrexler/svm_pumas/blob/master/puma_result.md)
 **TL;DR: More data is always better.**
