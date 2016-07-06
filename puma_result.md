@@ -60,12 +60,16 @@ So a 0 value means everyone in a PUMA has the same occupation-- no diversity.  H
 
 **Lesson three, stay in school, kids.**  Weirdly, the number of persons under 16 correlated reasonably well with average predictor scores, while, not-so-weirdly the fraction of people in the PUMA that finished high school or equivalent degree programs correlated more strongly.  Number of persons with college degrees didn't correlate as strongly as the high school level.  
 
-![](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure4.png)
+![kids and school](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure4.png)
 
-**Finally, apparently with age and money come PUMA predictor wisdom**.  Average age and income were also slightly correlated with average PUMA predictor.  I suspect the reason for this is that the average incomes and ages in the better predictor PUMAs cluster with the national averages of these values, calculated from the full Kaggle dataset and plotted in the big red dots.
+**Finally, apparently with age and money come PUMA predictor wisdom**.  Average age and income were also slightly correlated with average PUMA predictor.  I suspect the reason for this is that the average incomes and ages in the better predictor PUMAs cluster with the national averages of these values, calculated from the full Kaggle dataset and plotted in the big red dots.  
 
-![figure6](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_all.png)
+
+![money and age](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_figure6.png)
 
 As a summary, here's a correlation matrix of everything I looked at.  Its by no means comprehensive, and to really figure out what makes the good predictor PUMAs good and the bad ones bad, a much deeper analysis is necessary.  There are well over 100 features that could be relevant in there!  The correlation matrix shows some interesting trends that make some sense as well:
 1.  Income correlates well with e ducation level and how much people worked in the previous year.
-2.  Number of weeks worked  in the past year correlates with income, occupation, and negatively correlates with how many kids less than 16 are in the PUMA.
+2.  Number of weeks worked  in the past year correlates with income, occupation, and negatively correlates with how many kids less than 16 are in the PUMA.  
+
+
+![heatmap all features](https://gitlab.com/atrexler/svm_pumas/blob/master/readme_all.png)
