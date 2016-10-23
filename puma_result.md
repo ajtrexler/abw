@@ -2,7 +2,7 @@
 
 Initially I tried to preselect PUMAs based on factors I thought might affect how good a model they produce, but then I realized that wasn't working very well so I just tested every PUMA.  Here is a simple plot of sample number in each PUMA versus the mean score of all the predictions that PUMA made.
 
-![figure1](https://gitlab.com/atrexler/svm_pumas/raw/master/readme_figure1.png)
+![figure1](https://raw.githubusercontent.com/ajtrexler/abw/master/readme_figure1.png)
 
 **So, lesson number one, data is king!**  PUMAs with more datapoints clearly produced better models that more accurately predicted occupations in other PUMAs.  No surprise there, really.  Moving on from that, I wanted to try to put the PUMAs on a more level playing field, so I extracted a random subset of datapoints (1000) from each PUMA with at least that many datapoints, and performed the model building and analysis again with this smaller dataset.  Here is the same style plot as Figure 1, showing the performance of each PUMA, using a normalized dataset of 1000 samples, at predicting occupations.
 
